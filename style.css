@@ -36,10 +36,10 @@ a { color: inherit; }
   pointer-events: none;
 }
 .bg > * { position: relative; }
-.bg-5 { background-image: url("img/5.jpg"); }
-.bg-3 { background-image: url("img/3.jpg"); }
-.bg-2 { background-image: url("img/2.jpg"); }
-.bg-6 { background-image: url("img/6.jpg"); }
+.bg-5 { background-image: url("assets/5.jpg"); }
+.bg-3 { background-image: url("assets/3.jpg"); }
+.bg-2 { background-image: url("assets/2.jpg"); }
+.bg-6 { background-image: url("assets/6.jpg"); }
 
 /* Шапка */
 .top {

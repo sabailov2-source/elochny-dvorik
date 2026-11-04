@@ -11,7 +11,7 @@
   });
 
   // Если фото фона не загрузилось - логируем, сайт остаётся рабочим (цвет фона запасной)
-  ["img/2.jpg", "img/3.jpg", "img/4.jpg", "img/5.jpg", "img/6.jpg"].forEach(function (src) {
+  ["assets/2.jpg", "assets/3.jpg", "assets/4.jpg", "assets/5.jpg", "assets/6.jpg"].forEach(function (src) {
     var probe = new Image();
     probe.onerror = function () { L.warn("Фото не загрузилось", "preloadBackground", { src: src }); };
     probe.src = src;
